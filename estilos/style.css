@@ -36,9 +36,10 @@
         border-radius: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.446);
         
-        transform: translate(-50%, -50%);
+        
         transition: width .3s, height .3s;
         transition-timing-function: ease;
+        transform: translate(-50%, -50%);
         
     }
 
@@ -65,7 +66,10 @@
         font-size: 0.8em;
     }
     
-    
+    div.campo > label {
+        display: none;
+    }
+
     
 
     
@@ -78,11 +82,6 @@
         border-radius: 8px;
         margin: 5px 0px;
     }
-
-    div.campo > label {
-        display: none;
-    }
-
 
     div.campo > span {
         color: white;
